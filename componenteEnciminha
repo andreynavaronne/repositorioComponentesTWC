@@ -4,6 +4,13 @@
   <path d="M28.8442 25.239L22.3103 18.6883L19.6774 16.0486L22.3103 13.4089L28.8442 6.85815C28.3393 6.14853 27.7721 5.47358 27.1381 4.83792C26.5041 4.20227 25.8286 3.63365 25.1231 3.12743L18.5892 9.67814L15.9563 12.3178L13.3234 9.67814L6.78949 3.12512C6.08169 3.63133 5.40848 4.19996 4.77445 4.83561C4.14043 5.47126 3.57327 6.14853 3.06836 6.85584L9.60224 13.4065L12.2352 16.0462L9.60224 18.6859L3.06836 25.2366C3.57327 25.9463 4.14043 26.6212 4.77445 27.2569C5.40848 27.8925 6.084 28.4611 6.78949 28.9674L13.3234 22.4167L15.9563 19.777L18.5892 22.4167L25.1231 28.9674C25.8309 28.4611 26.5041 27.8925 27.1381 27.2569C27.7721 26.6212 28.3393 25.944 28.8442 25.2366V25.239Z" fill="#E4003F"/>
   <path d="M31.7398 13.3395H18.6582V0.221901C17.7936 0.0762785 16.9083 0 16.0022 0C15.0961 0 14.2108 0.0762785 13.3462 0.221901V13.3372H0.262347C0.117098 14.204 0.0410156 15.0916 0.0410156 16C0.0410156 16.9084 0.117098 17.796 0.262347 18.6628H13.3439V31.7781C14.2085 31.9237 15.0938 32 15.9999 32C16.906 32 17.7913 31.9237 18.6559 31.7781V18.6628H31.7375C31.8827 17.796 31.9588 16.9084 31.9588 16C31.9588 15.0916 31.8827 14.204 31.7375 13.3372L31.7398 13.3395Z" fill="#E9530E"/>
   </svg>
+  <p class="absolute top-[134px] left-[14px] text-black font-bold text-[30px] h-[22px]">XXX XXX XX XXXXXX XX XXXXXXX</p>
+  <p class = "absolute top-[162px] left-[34px] text-[30px] text-transparent bg-clip-text bg-gradient-to-r from-[#E4003F] to-[#E9530E] font-bold >">XXXXXXX XXXX XXXXXX</p>
+  <p class="absolute top-[228px] left-[22px] text-center w-[346px] text-[16px] font-medium">xxxx xx xxx xxxxxx x xxx xxxxx xxxxxx xx xxxxxxxx xxxxxxxxx xxxx xxxx xxxxxxxx xxxxxxxxxxxxx xxxxxxxxx xxxxxxxxxxx x x xxxxxxx xx xxxxx xxxxx xx xxx xxxxxxxxxx xxxxxxxxxxxxxx xxx x xxxxx xxxxxxx.</p>
+  <div class="absolute top-[368px] left-[74px] bg-gradient-to-tr from-[#E4003F] to-[#E9530E] h-10 w-60 rounded-full">
+    <p class="absolute top-[10px] left-[38px] text-white font-bold text-[13px]">XXXXX XXX XX XXXXXXX →</p>
+  </div>
+  
 
 </div>
 
