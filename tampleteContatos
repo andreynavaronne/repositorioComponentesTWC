@@ -1,80 +1,144 @@
-<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+export default function Component1A() {
+  return (
+    <div>
+      <div class="items-top flex h-[317px] w-[342px] rounded-xl bg-gray-100">
+        <p class="absolute top-[20px] left-[24px] text-bold text-sm font-extrabold font-lemon-milk text-gray-800 h-[11px] w-[300px]">
+          ATENDIMENTO POR TELEFONE
+        </p>
+        <div class="absolute top-[59px] left-[24px] h-[234px] w-[294px] bg-gray-100">
+          <div class="absolute top-[0px] left-[0px] rounded-xl h-[105px] w-[294px] bg-white">
+            <svg
+              width="48"
+              height="49"
+              viewBox="0 0 48 49"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute top-7 left-[24px]"
+            >
+              <path
+                d="M40 42.5V38.5C40 36.3783 39.1571 34.3434 37.6569 32.8431C36.1566 31.3429 34.1217 30.5 32 30.5H16C13.8783 30.5 11.8434 31.3429 10.3431 32.8431C8.84285 34.3434 8 36.3783 8 38.5V42.5M32 14.5C32 18.9183 28.4183 22.5 24 22.5C19.5817 22.5 16 18.9183 16 14.5C16 10.0817 19.5817 6.5 24 6.5C28.4183 6.5 32 10.0817 32 14.5Z"
+                stroke="url(#paint0_linear_201_7476)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_201_7476"
+                  x1="40"
+                  y1="24.5"
+                  x2="8"
+                  y2="24.5"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#E9530E" />
+                  <stop offset="1" stop-color="#E4003F" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="absolute top-[21px] left-[88px] bg-white h-[57px] w-[190px]">
+              <p class="absolute top-[0px] left-[0px] font-lemon-milk font-extrabold text-[12px] gradient-text">
+                TELEFONE CONSUMIDOR
+              </p>
 
-<div class="items-top flex h-[317px] w-[342px] rounded-xl bg-gray-100">
-  <p class="absolute top-[20px] left-[24px] text-bold text-sm font-extrabold font-lemon-milk text-gray-800 h-[11px] w-[300px]">ATENDIMENTO POR TELEFONE</p>
-  <div class = "absolute top-[59px] left-[24px] h-[234px] w-[294px] bg-gray-100">
-    <div class = "absolute top-[0px] left-[0px] rounded-xl h-[105px] w-[294px] bg-white">
-      <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-7 left-[24px]">
-        <path d="M40 42.5V38.5C40 36.3783 39.1571 34.3434 37.6569 32.8431C36.1566 31.3429 34.1217 30.5 32 30.5H16C13.8783 30.5 11.8434 31.3429 10.3431 32.8431C8.84285 34.3434 8 36.3783 8 38.5V42.5M32 14.5C32 18.9183 28.4183 22.5 24 22.5C19.5817 22.5 16 18.9183 16 14.5C16 10.0817 19.5817 6.5 24 6.5C28.4183 6.5 32 10.0817 32 14.5Z" stroke="url(#paint0_linear_201_7476)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <defs>
-        <linearGradient id="paint0_linear_201_7476" x1="40" y1="24.5" x2="8" y2="24.5" gradientUnits="userSpaceOnUse">
-        <stop stop-color="#E9530E"/>
-        <stop offset="1" stop-color="#E4003F"/>
-        </linearGradient>
-        </defs>
-        </svg>
-      <div class ="absolute top-[21px] left-[88px] bg-white h-[57px] w-[190px]">
-        <p class="absolute top-[0px] left-[0px] font-lemon-milk font-extrabold text-[12px] gradient-text"">TELEFONE CONSUMIDOR</p>
-        <style>
-       .gradient-text {
-          background: linear-gradient(to right, #E4003F, #E9530E);
-          -webkit-background-clip: text;
-          background-clip: text;
-          color: transparent;
-        }
-        </style>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-[22px] w-[16px] h-[16px]">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/>
-        </svg>
-        <p class="absolute top-[18px] left-[24px] font-lemon-milk text-[14px] underline">(XX) XXXX-XXXX</p>
-        <span class="absolute top-[44px] [&>svg]:h-[16px] [&>svg]:w-[16px] [&>svg]:fill-[#128c7e]">
-         <svg
-         xmlns="http://www.w3.org/2000/svg"
-         fill="currentColor"
-         viewBox="0 0 448 512">
-         <path
-          d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
-         </svg>
-         </span>
-         <p class="absolute top-[40px] left-[24px] font-lemon-milk text-[14px] underline">(XX) XXXXX-XXXX</p>
+              <svg
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="absolute top-[22px] w-[16px] h-[16px]"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                />
+              </svg>
+              <p class="absolute top-[18px] left-[24px] font-lemon-milk text-[14px] underline">
+                (xx) xxxx-xxxx
+              </p>
+              <span class="absolute top-[44px] [&>svg]:h-[16px] [&>svg]:w-[16px] [&>svg]:fill-[#128c7e]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 448 512"
+                >
+                  <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                </svg>
+              </span>
+              <p class="absolute top-[40px] left-[24px] font-lemon-milk text-[14px] underline">
+                (xx) xxxxx-xxxx
+              </p>
+            </div>
+          </div>
+          <div class="absolute top-[129px] left-[0px] rounded-xl h-[105px] w-[294px] bg-white">
+            <svg
+              width="48"
+              height="49"
+              viewBox="0 0 48 49"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="absolute top-7 left-6"
+            >
+              <path
+                d="M32 20.5C32 22.6217 31.1571 24.6566 29.6569 26.1569C28.1566 27.6571 26.1217 28.5 24 28.5C21.8783 28.5 19.8434 27.6571 18.3431 26.1569C16.8429 24.6566 16 22.6217 16 20.5M6 12.5L12 4.5H36L42 12.5M6 12.5V40.5C6 41.5609 6.42143 42.5783 7.17157 43.3284C7.92172 44.0786 8.93913 44.5 10 44.5H38C39.0609 44.5 40.0783 44.0786 40.8284 43.3284C41.5786 42.5783 42 41.5609 42 40.5V12.5M6 12.5H42"
+                stroke="url(#paint0_linear_201_8794)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_201_8794"
+                  x1="42"
+                  y1="24.5"
+                  x2="6"
+                  y2="24.5"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#E9530E" />
+                  <stop offset="1" stop-color="#E4003F" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="absolute top-[22px] left-[88px] bg-white h-[57px] w-[160px]">
+              <p class="absolute top-[0px] left-[0px] font-lemon-milk font-extrabold text-[12px] gradient-text">
+                TELEFONE LOJISTA
+              </p>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="absolute top-[22px] w-[16px] h-[16px]"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                />
+              </svg>
+              <p class="absolute top-[18px] left-[24px] font-lemon-milk text-[14px] underline">
+                (xx) xxxx-xxxx
+              </p>
+              <span class="absolute top-[44px] [&>svg]:h-[16px] [&>svg]:w-[16px] [&>svg]:fill-[#128c7e]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="currentColor"
+                  viewBox="0 0 448 512"
+                >
+                  <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                </svg>
+              </span>
+              <p class="absolute top-[40px] left-[24px] font-lemon-milk text-[14px] underline">
+                (xx) xxxxx-xxxx
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class = "absolute top-[129px] left-[0px] rounded-xl h-[105px] w-[294px] bg-white">
-      <svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute top-7 left-6">
-      <path d="M32 20.5C32 22.6217 31.1571 24.6566 29.6569 26.1569C28.1566 27.6571 26.1217 28.5 24 28.5C21.8783 28.5 19.8434 27.6571 18.3431 26.1569C16.8429 24.6566 16 22.6217 16 20.5M6 12.5L12 4.5H36L42 12.5M6 12.5V40.5C6 41.5609 6.42143 42.5783 7.17157 43.3284C7.92172 44.0786 8.93913 44.5 10 44.5H38C39.0609 44.5 40.0783 44.0786 40.8284 43.3284C41.5786 42.5783 42 41.5609 42 40.5V12.5M6 12.5H42" stroke="url(#paint0_linear_201_8794)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <defs>
-      <linearGradient id="paint0_linear_201_8794" x1="42" y1="24.5" x2="6" y2="24.5" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#E9530E"/>
-      <stop offset="1" stop-color="#E4003F"/>
-      </linearGradient>
-      </defs>
-      </svg>
-      <div class ="absolute top-[22px] left-[88px] bg-white h-[57px] w-[160px]">
-        <p class="absolute top-[0px] left-[0px] font-lemon-milk font-extrabold text-[12px] gradient-text">TELEFONE LOJISTA</p>
-        <style>
-       .gradient-text {
-          background: linear-gradient(to right, #E4003F, #E9530E);
-          -webkit-background-clip: text;
-          background-clip: text;
-          color: transparent;
-        }
-        </style>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-[22px] w-[16px] h-[16px]">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"/>
-        </svg>
-        <p class="absolute top-[18px] left-[24px] font-lemon-milk text-[14px] underline">(XX) XXXX-XXXX</p>
-        <span class="absolute top-[44px] [&>svg]:h-[16px] [&>svg]:w-[16px] [&>svg]:fill-[#128c7e]">
-         <svg
-         xmlns="http://www.w3.org/2000/svg"
-         fill="currentColor"
-         viewBox="0 0 448 512">
-         <path
-          d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
-         </svg>
-         </span>
-         <p class="absolute top-[40px] left-[24px] font-lemon-milk text-[14px] underline">(XX) XXXXX-XXXX</p>
-      </div>
-    </div>
-  </div>
-
-</div>
+  );
+}
